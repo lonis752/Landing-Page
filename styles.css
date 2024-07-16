@@ -48,6 +48,7 @@ h1{
 
 .text{
     max-width: 550px;
+    padding: 0px 50px 0px;
 }
 
 .image{
@@ -68,7 +69,7 @@ h2{
     justify-content: center;
     font-size: 36px;
     font-weight: 800;
-    padding: 50px 0px 50px;
+    padding: 50px 50px 50px;
 }
 
 .infocard{
@@ -102,7 +103,9 @@ h2{
 }
 
 .quote{
+    flex: 1;
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
@@ -116,6 +119,7 @@ h2{
     font-size: 36px;
     color: #1F2937;
     max-width: 700px;
+    padding: 0px 50px 0px;
 }
 
 .author{
@@ -126,13 +130,14 @@ h2{
 }
 
 .cta{
+    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     gap: 50px;
     background-color: #3882F6;
-    padding: 25px 0px 25px;
+    padding: 25px 50px 25px;
     margin: 100px 100px 100px;
     border-radius: 8px;
 }
@@ -140,11 +145,15 @@ h2{
 .cta-container{
     display: flex;
     flex-direction: column;
+    padding: 0px 50px 0px;
 }
 
 .cta-header{
     font-size: 18px;
     font-weight: 800;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .cta-text{
@@ -152,6 +161,7 @@ h2{
     align-items: start;
     justify-content: space-around;
     max-width: 500px;
+    color: white;
 }
 
 .cta-button{
